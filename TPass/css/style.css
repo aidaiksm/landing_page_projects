@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #576D81;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0F2336;
+}
+
+button,
+input {
+    border: none;
+    cursor: pointer;
+}
+
+
+.container{
+    margin: 0 auto;
+    width:1000px;
+}
+
+
+
+/* Header */
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    background-color: #F5F6F7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download {
+    height: 45px;
+    width: 100px;
+    background-color: #0F2336;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.header__main {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    width: 50%;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+    color: #00CCCC;
+}
+
+
+.subtitle {
+    margin-top: 0;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.header__right {
+    position: relative;
+}
+
+.back-img {
+    position: absolute;
+    right: -120px;
+    top: 15px;
+}
+
+.front-img {
+    position: absolute;
+    right: -23px;
+    top: 15px;
+    z-index: 1;
+}
+.discover-btn {
+    width: 208px;
+    height: 55px;
+    background-color: #00CCCC;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* Benefits */
+
+.benefits {
+    margin: 100px;
+}
+
+.benefits__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.element {
+    width: 28%;
+}
+
+.title-element {
+    color: #0F2336;
+}
+.text-element {
+    font-size: 14px;
+    color: #576D81;
+    line-height: 25px;
+}
+
+
+/* Tutorial */
+
+.tutorial {
+    margin-bottom: 150px;
+}
+
+.tutorial__inner {
+    background-color: #E3E6E8;
+    border-radius: 40px;
+    height: 550px;
+    position: relative;
+}
+
+.tutorial__right {
+    width: 40%;
+    padding-left: 50%;
+    padding-top: 10%;
+}
+
+.phone-img {
+    position: absolute;
+    top: -18px;
+}
+
+.tutorial-title {
+    color: #0F2336;
+    font-size: 35px;
+}
+
+/* Perks */
+
+.perks {
+    background-color: #E3E6E8;
+    height: 527px;
+    margin-bottom: 150px;
+}
+.perks__inner {
+    display: flex;
+    position: relative;
+}
+
+.perks-cards {
+    width: 455px;
+    height: auto;
+    position: relative;
+}
+
+.first {
+    position: absolute;
+    top: -65px;
+    left: 0;
+}
+
+.second {
+    position: absolute;
+    top: 155px;
+    left: 40px;
+}
+
+.third {
+    position: absolute;
+    top: 370px;
+    left: -2px;
+}
+.perks-img {
+   position: absolute;
+   width: 595px;
+   height: auto;
+   right: -20px;
+   top: -100px;
+}
+
+
+/* Mobile */
+
+.mobile-img {
+    position: absolute;
+    width: 547px;
+    height: auto;
+    top: -25px;
+    right: 5px;
+
+}
+
+.mobile__left {
+    width: 40%;
+    margin: 45px 100px;
+}
+
+/* Contacts */
+
+.contact-title {
+    color: #0F2336;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact__inner {
+    margin: 200px auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.contact-form {
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: #E3E6E8;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+
+.contact-btn {
+    width: 150px;
+}
+
+
+.apps {
+    width: 300px;
+    height: auto;
+    margin-right: 115px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #0F2336;
+    position: relative;
+}
+
+.footer__inner {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info {
+    width: 40%;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    color: #00CCCC;
+    margin-bottom: 20px;
+}
+
+.elem-name {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.leaf-left{
+    position: absolute;
+    top: -90px;
+}
+
+.leaf-right {
+    position: absolute;
+    right: 0;
+    top: -26px;
+}
+
+.logo-footer {
+    margin-left: 95px;
+}
